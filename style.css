@@ -77,8 +77,7 @@ body{
 
 
 
-@media  screen and (max-width: 805px) {
-
+@media screen and (max-width: 805px) {
     .container{
         flex-direction: column-reverse;
         height: 236.38px;
