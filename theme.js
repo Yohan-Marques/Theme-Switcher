@@ -13,12 +13,13 @@ btn.addEventListener('click', circle)
 
             body.classList.toggle('sol')
             body.classList.toggle('lua')
-            document.getElementById('fundo').style.transition = 'all .3s ease-in'
 
+            document.getElementById('fundo').style.transition = 'all .3s ease-in'
             btn.classList.toggle('active')
         }
 
         function textAdd(){
+            
             if(body.classList.contains('lua')){
                 
                 h1.innerHTML = 'Theme Moon'
